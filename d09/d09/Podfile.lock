@@ -1,0 +1,16 @@
+PODS:
+  - msireau2017 (0.1.0)
+
+DEPENDENCIES:
+  - msireau2017 (from `../d09/msireau2017`)
+
+EXTERNAL SOURCES:
+  msireau2017:
+    :path: ../d09/msireau2017
+
+SPEC CHECKSUMS:
+  msireau2017: 37b8662e4d77a6eb153d3456c572f66590df46cc
+
+PODFILE CHECKSUM: e12b9c2141eb4c1678fc3e3494a3e7b15101793b
+
+COCOAPODS: 1.3.1

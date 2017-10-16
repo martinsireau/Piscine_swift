@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+    <file original="d09/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="fr">
+        <header>
+            <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+        </header>
+        <body/>
+    </file>
+    <file original="d09/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="fr">
+        <header>
+            <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+        </header>
+        <body>
+            <trans-unit id="2XN-mb-s0e.normalTitle">
+                <source>Take Picture</source>
+                <target>Prendre une photo</target>
+                <note>Class = "UIButton"; normalTitle = "Take Picture"; ObjectID = "2XN-mb-s0e";</note>
+            </trans-unit>
+            <trans-unit id="GpU-DZ-tiU.title">
+                <source>Create Article</source>
+                <target>Créer un article</target>
+                <note>Class = "UIViewController"; title = "Create Article"; ObjectID = "GpU-DZ-tiU";</note>
+            </trans-unit>
+            <trans-unit id="JL1-48-wLI.text">
+                <source> </source>
+                <target> </target>
+                <note>Class = "UILabel"; text = " "; ObjectID = "JL1-48-wLI";</note>
+            </trans-unit>
+            <trans-unit id="Rd9-Ch-ur4.title">
+                <source>My Articles</source>
+                <target>Mes Articles</target>
+                <note>Class = "UINavigationItem"; title = "My Articles"; ObjectID = "Rd9-Ch-ur4";</note>
+            </trans-unit>
+            <trans-unit id="V1l-4b-GPL.placeholder">
+                <source>Title</source>
+                <target>Titre</target>
+                <note>Class = "UITextField"; placeholder = "Title"; ObjectID = "V1l-4b-GPL";</note>
+            </trans-unit>
+            <trans-unit id="XIw-aG-fYf.text">
+                <source> </source>
+                <target> </target>
+                <note>Class = "UILabel"; text = " "; ObjectID = "XIw-aG-fYf";</note>
+            </trans-unit>
+            <trans-unit id="bYX-IW-cDu.text">
+                <source>Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</source>
+                <target>Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</target>
+                <note>Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "bYX-IW-cDu";</note>
+            </trans-unit>
+            <trans-unit id="kd4-W8-a6j.normalTitle">
+                <source>Authenticate yourself</source>
+                <target>Authentifiez vous</target>
+                <note>Class = "UIButton"; normalTitle = "Authenticate yourself"; ObjectID = "kd4-W8-a6j";</note>
+            </trans-unit>
+            <trans-unit id="lCl-Iu-M3i.normalTitle">
+                <source>Choose Picture</source>
+                <target>Choisir une image</target>
+                <note>Class = "UIButton"; normalTitle = "Choose Picture"; ObjectID = "lCl-Iu-M3i";</note>
+            </trans-unit>
+            <trans-unit id="lfO-Ww-SkT.text">
+                <source> </source>
+                <target> </target>
+                <note>Class = "UILabel"; text = " "; ObjectID = "lfO-Ww-SkT";</note>
+            </trans-unit>
+            <trans-unit id="qoP-iy-HOo.text">
+                <source> </source>
+                <target> </target>
+                <note>Class = "UILabel"; text = " "; ObjectID = "qoP-iy-HOo";</note>
+            </trans-unit>
+            <trans-unit id="vDN-wD-X5c.title">
+                <source>My Articles</source>
+                <target>Mes Articles</target>
+                <note>Class = "UIViewController"; title = "My Articles"; ObjectID = "vDN-wD-X5c";</note>
+            </trans-unit>
+            <trans-unit id="zZp-VW-6nt.title">
+                <source>My Articles</source>
+                <target>Mes Articles</target>
+                <note>Class = "UINavigationItem"; title = "My Articles"; ObjectID = "zZp-VW-6nt";</note>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="d09/Info.plist" source-language="en" datatype="plaintext" target-language="fr">
+        <header>
+            <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+        </header>
+        <body>
+            <trans-unit id="CFBundleName">
+                <source>$(PRODUCT_NAME)</source>
+            </trans-unit>
+            <trans-unit id="CFBundleShortVersionString">
+                <source>1.0</source>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="d09/Localizable.strings" source-language="en" datatype="plaintext" target-language="fr">
+        <header>
+            <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+        </header>
+        <body>
+            <trans-unit id="My Articles">
+                <source>My Articles</source>
+                <target>Mes Articles</target>
+                <note>Title of View</note>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

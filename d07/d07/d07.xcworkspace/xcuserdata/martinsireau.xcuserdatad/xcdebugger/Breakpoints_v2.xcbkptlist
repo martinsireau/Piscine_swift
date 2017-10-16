@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "d07/ViewController.swift"
+            timestampString = "529485473.075913"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "makeRecastRequest(request:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RecastAI.Response) -&gt; () in d07.ViewController.makeRecastRequest(request: Swift.String) -&gt; ()"
+                  moduleName = "d07"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinsireau/Desktop/d07/d07/d07/ViewController.swift"
+                  timestampString = "529484081.853937"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "2963">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ForecastIO.Result&lt;ForecastIO.Forecast&gt;) -&gt; () in closure #1 (RecastAI.Response) -&gt; () in d07.ViewController.makeRecastRequest(request: Swift.String) -&gt; ()"
+                  moduleName = "d07"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinsireau/Desktop/d07/d07/d07/ViewController.swift"
+                  timestampString = "529484081.858033"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "972">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

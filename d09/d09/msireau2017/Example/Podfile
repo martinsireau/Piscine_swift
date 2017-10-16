@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'msireau2017_Example' do
+  pod 'msireau2017', :path => '../'
+
+  target 'msireau2017_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

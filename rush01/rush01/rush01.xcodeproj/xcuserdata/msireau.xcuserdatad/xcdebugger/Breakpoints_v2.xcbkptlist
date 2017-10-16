@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "rush01/FirstViewController.swift"
+            timestampString = "529772645.700824"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "traceRoute(sourceLoc:destLoc:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rush01.FirstViewController.traceRoute (sourceLoc : __ObjC.CLPlacemark, destLoc : __ObjC.CLPlacemark) -&gt; ()"
+                  moduleName = "rush01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/msireau/work/swift/Rush01/r01/rush01/rush01/FirstViewController.swift"
+                  timestampString = "529773248.219807"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "518">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rush01.FirstViewController.traceRoute (sourceLoc : __ObjC.CLPlacemark, destLoc : __ObjC.CLPlacemark) -&gt; ()"
+                  moduleName = "rush01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/msireau/work/swift/Rush01/r01/rush01/rush01/FirstViewController.swift"
+                  timestampString = "529773248.221932"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

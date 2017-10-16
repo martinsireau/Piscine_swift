@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F266B8E85D577E3AE4ED9F1FCA028A9 /* msireau2017-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D346A5BFF743D90AEDEBD7F0C53209F /* msireau2017-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15EB57025AF55A49EC849F3C0367D52C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4022FAE9281E6126161116FC33FAA73 /* ReplaceMe.swift */; };
+		31294E9C9ABA82BA290924F8692783B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4DE19F1C4893A83F23A262D5D7CDAA01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7B39D5C259E7E0F3BAE17F803FB2801B /* Pods-msireau2017_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A39D37565B9F0FC647876B46B2F0E601 /* Pods-msireau2017_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E9F5F58F811C853C1F12B282175AFAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9458D3BDC936F8D58143F254F37F97A8 /* Pods-msireau2017_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAB6922D38243FAEC2F03C4D80E59D8 /* Pods-msireau2017_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A35C67891F91264E00F44DF3 /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C67871F91264E00F44DF3 /* Article+CoreDataClass.swift */; };
+		A35C678A1F91264E00F44DF3 /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C67881F91264E00F44DF3 /* Article+CoreDataProperties.swift */; };
+		A35C678C1F9126EC00F44DF3 /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C678B1F9126EC00F44DF3 /* ArticleManager.swift */; };
+		A35C678F1F9128BD00F44DF3 /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A35C678D1F9128BD00F44DF3 /* article.xcdatamodeld */; };
+		A3BA717101F73941F296AA29AF64C578 /* Pods-msireau2017_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E92573985D123619B11DA221C055E0 /* Pods-msireau2017_Tests-dummy.m */; };
+		BC5016568CF4A0D3BB680C6A3F8E0EC7 /* Pods-msireau2017_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6EB8DE5BAA90F1E61A5C5EA99CB427 /* Pods-msireau2017_Example-dummy.m */; };
+		DDFE8209E75E42324FE8FD5DD99E59CB /* msireau2017-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2EDF030B3DA78F16404C43CC11A96 /* msireau2017-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E104F294ED5F294050E3FED04A7F584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90D88932D5D0A7A303BBEC210289FD46;
+			remoteInfo = msireau2017;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A49A1D4CC1EB994FB389E9134C16E5 /* msireau2017.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msireau2017.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E860A73D6634BCDE432D52E3718346 /* Pods-msireau2017_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-msireau2017_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		16EFA69DDDEE55653059B2A73A04CDC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214E901CFCE315B9DF25B8D966DD3DEE /* msireau2017.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = msireau2017.modulemap; sourceTree = "<group>"; };
+		270152DAF90B8F2D5E0502D26435B0B8 /* Pods-msireau2017_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-msireau2017_Example.modulemap"; sourceTree = "<group>"; };
+		2A4810A5164878BA909E2540C8A2B165 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2C4B6A2357317C0537450523711280 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D346A5BFF743D90AEDEBD7F0C53209F /* msireau2017-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "msireau2017-umbrella.h"; sourceTree = "<group>"; };
+		3F0ED11C1FF4C4A3B03FD139B6CEB9F0 /* Pods-msireau2017_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-msireau2017_Example-resources.sh"; sourceTree = "<group>"; };
+		40C2EDF030B3DA78F16404C43CC11A96 /* msireau2017-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "msireau2017-dummy.m"; sourceTree = "<group>"; };
+		41E92573985D123619B11DA221C055E0 /* Pods-msireau2017_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-msireau2017_Tests-dummy.m"; sourceTree = "<group>"; };
+		470A55EB3B55BCD306CBEEB70F9B57D4 /* Pods-msireau2017_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-msireau2017_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		57FE7179F15BC7EE469597877908EF1B /* msireau2017-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "msireau2017-prefix.pch"; sourceTree = "<group>"; };
+		5D9027D8E5A27A46FE39FDB493DE02BC /* Pods_msireau2017_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msireau2017_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6DCCD2B75761C00189EFEA487330E7D1 /* Pods-msireau2017_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-msireau2017_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		74F9F2E71B031FE7EA2353F453E430F9 /* Pods-msireau2017_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-msireau2017_Tests.modulemap"; sourceTree = "<group>"; };
+		7BAB6922D38243FAEC2F03C4D80E59D8 /* Pods-msireau2017_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-msireau2017_Example-umbrella.h"; sourceTree = "<group>"; };
+		7EA632FA0C76FFE7821DF1ECFC7ACCE9 /* msireau2017.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = msireau2017.xcconfig; sourceTree = "<group>"; };
+		808E8D472C36E78F032B4FA1F1E776DE /* Pods-msireau2017_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msireau2017_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8C6B4E542F7581D8B5F11A94ACFA1499 /* Pods_msireau2017_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msireau2017_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6EB8DE5BAA90F1E61A5C5EA99CB427 /* Pods-msireau2017_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-msireau2017_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C2A4FF405C5A02E851BFD736DD54C0B /* Pods-msireau2017_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-msireau2017_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A35C67871F91264E00F44DF3 /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataClass.swift"; path = "msireau2017/Classes/Article+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A35C67881F91264E00F44DF3 /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataProperties.swift"; path = "msireau2017/Classes/Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A35C678B1F9126EC00F44DF3 /* ArticleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleManager.swift; sourceTree = "<group>"; };
+		A35C678E1F9128BD00F44DF3 /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
+		A39D37565B9F0FC647876B46B2F0E601 /* Pods-msireau2017_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-msireau2017_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A4686E29CC02961F1DCF3570FC61A062 /* Pods-msireau2017_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msireau2017_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7E7973F8D11C4937C3B0C1EAD89B663 /* Pods-msireau2017_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msireau2017_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C758EFE39BEFA877E17929DD071AC48C /* Pods-msireau2017_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-msireau2017_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CD93AB52F10DA72F123ECC428BDCA009 /* Pods-msireau2017_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-msireau2017_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCAECDDA08E3FF5E562885B538CBDE9F /* Pods-msireau2017_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-msireau2017_Tests-resources.sh"; sourceTree = "<group>"; };
+		E4022FAE9281E6126161116FC33FAA73 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = msireau2017/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		EF1E43A35D22A5C8D488984C36C164DB /* Pods-msireau2017_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msireau2017_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		500B833DA5F67E742CBE29353107F2CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE19F1C4893A83F23A262D5D7CDAA01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7488071B57D953F36CE1381561221599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E9F5F58F811C853C1F12B282175AFAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65A4F5876264E0AC098ED8FCD1AACDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31294E9C9ABA82BA290924F8692783B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		175065D978C933911FD302D6FE12A561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A49A1D4CC1EB994FB389E9134C16E5 /* msireau2017.framework */,
+				5D9027D8E5A27A46FE39FDB493DE02BC /* Pods_msireau2017_Example.framework */,
+				8C6B4E542F7581D8B5F11A94ACFA1499 /* Pods_msireau2017_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C2C42944FEF0342231E32A9AAAAF43D /* Pods-msireau2017_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2A4810A5164878BA909E2540C8A2B165 /* Info.plist */,
+				74F9F2E71B031FE7EA2353F453E430F9 /* Pods-msireau2017_Tests.modulemap */,
+				9C2A4FF405C5A02E851BFD736DD54C0B /* Pods-msireau2017_Tests-acknowledgements.markdown */,
+				470A55EB3B55BCD306CBEEB70F9B57D4 /* Pods-msireau2017_Tests-acknowledgements.plist */,
+				41E92573985D123619B11DA221C055E0 /* Pods-msireau2017_Tests-dummy.m */,
+				6DCCD2B75761C00189EFEA487330E7D1 /* Pods-msireau2017_Tests-frameworks.sh */,
+				DCAECDDA08E3FF5E562885B538CBDE9F /* Pods-msireau2017_Tests-resources.sh */,
+				A39D37565B9F0FC647876B46B2F0E601 /* Pods-msireau2017_Tests-umbrella.h */,
+				A4686E29CC02961F1DCF3570FC61A062 /* Pods-msireau2017_Tests.debug.xcconfig */,
+				EF1E43A35D22A5C8D488984C36C164DB /* Pods-msireau2017_Tests.release.xcconfig */,
+			);
+			name = "Pods-msireau2017_Tests";
+			path = "Target Support Files/Pods-msireau2017_Tests";
+			sourceTree = "<group>";
+		};
+		4877A01860FF487ABF7D39FFF8F9AA22 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3FE573101516F7E8140411ABABC7369 /* Pods-msireau2017_Example */,
+				3C2C42944FEF0342231E32A9AAAAF43D /* Pods-msireau2017_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F58A67D2AC2D5546EB2DF04E498741E6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				175065D978C933911FD302D6FE12A561 /* Products */,
+				4877A01860FF487ABF7D39FFF8F9AA22 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A3FE573101516F7E8140411ABABC7369 /* Pods-msireau2017_Example */ = {
+			isa = PBXGroup;
+			children = (
+				16EFA69DDDEE55653059B2A73A04CDC0 /* Info.plist */,
+				270152DAF90B8F2D5E0502D26435B0B8 /* Pods-msireau2017_Example.modulemap */,
+				CD93AB52F10DA72F123ECC428BDCA009 /* Pods-msireau2017_Example-acknowledgements.markdown */,
+				05E860A73D6634BCDE432D52E3718346 /* Pods-msireau2017_Example-acknowledgements.plist */,
+				8D6EB8DE5BAA90F1E61A5C5EA99CB427 /* Pods-msireau2017_Example-dummy.m */,
+				C758EFE39BEFA877E17929DD071AC48C /* Pods-msireau2017_Example-frameworks.sh */,
+				3F0ED11C1FF4C4A3B03FD139B6CEB9F0 /* Pods-msireau2017_Example-resources.sh */,
+				7BAB6922D38243FAEC2F03C4D80E59D8 /* Pods-msireau2017_Example-umbrella.h */,
+				A7E7973F8D11C4937C3B0C1EAD89B663 /* Pods-msireau2017_Example.debug.xcconfig */,
+				808E8D472C36E78F032B4FA1F1E776DE /* Pods-msireau2017_Example.release.xcconfig */,
+			);
+			name = "Pods-msireau2017_Example";
+			path = "Target Support Files/Pods-msireau2017_Example";
+			sourceTree = "<group>";
+		};
+		AFE7BF82FDABB270AADDC9DE83B3B906 /* msireau2017 */ = {
+			isa = PBXGroup;
+			children = (
+				A35C678B1F9126EC00F44DF3 /* ArticleManager.swift */,
+				A35C67871F91264E00F44DF3 /* Article+CoreDataClass.swift */,
+				A35C67881F91264E00F44DF3 /* Article+CoreDataProperties.swift */,
+				A35C678D1F9128BD00F44DF3 /* article.xcdatamodeld */,
+				E4022FAE9281E6126161116FC33FAA73 /* ReplaceMe.swift */,
+				D0B8BDF55293413B9974FAE2E6E18EED /* Support Files */,
+			);
+			name = msireau2017;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0B8BDF55293413B9974FAE2E6E18EED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D2C4B6A2357317C0537450523711280 /* Info.plist */,
+				214E901CFCE315B9DF25B8D966DD3DEE /* msireau2017.modulemap */,
+				7EA632FA0C76FFE7821DF1ECFC7ACCE9 /* msireau2017.xcconfig */,
+				40C2EDF030B3DA78F16404C43CC11A96 /* msireau2017-dummy.m */,
+				57FE7179F15BC7EE469597877908EF1B /* msireau2017-prefix.pch */,
+				3D346A5BFF743D90AEDEBD7F0C53209F /* msireau2017-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/msireau2017";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F58A67D2AC2D5546EB2DF04E498741E6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFE7BF82FDABB270AADDC9DE83B3B906 /* msireau2017 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C36B92427F1460B7E5A3BF16601F5B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9458D3BDC936F8D58143F254F37F97A8 /* Pods-msireau2017_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA58A1014DAC0527E6B0718522594F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F266B8E85D577E3AE4ED9F1FCA028A9 /* msireau2017-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1DBC6C1C2E1F105804C18F03F4729B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B39D5C259E7E0F3BAE17F803FB2801B /* Pods-msireau2017_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		90D88932D5D0A7A303BBEC210289FD46 /* msireau2017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6211216651F84D48D014483AEF237A83 /* Build configuration list for PBXNativeTarget "msireau2017" */;
+			buildPhases = (
+				37644A1F870FFA4BBF73CD19DE5DF9B4 /* Sources */,
+				7488071B57D953F36CE1381561221599 /* Frameworks */,
+				5CA58A1014DAC0527E6B0718522594F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = msireau2017;
+			productName = msireau2017;
+			productReference = 04A49A1D4CC1EB994FB389E9134C16E5 /* msireau2017.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7ABE4411A06D1A748E5CC52BA675A88 /* Pods-msireau2017_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305FB555BFBDB3C08E1E135FD0CABDDE /* Build configuration list for PBXNativeTarget "Pods-msireau2017_Example" */;
+			buildPhases = (
+				77E46FE5F7C16D8EED30C0EC1AFEF1B3 /* Sources */,
+				B65A4F5876264E0AC098ED8FCD1AACDF /* Frameworks */,
+				1C36B92427F1460B7E5A3BF16601F5B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C98756DA8BB2E776015FF7B8647644B /* PBXTargetDependency */,
+			);
+			name = "Pods-msireau2017_Example";
+			productName = "Pods-msireau2017_Example";
+			productReference = 5D9027D8E5A27A46FE39FDB493DE02BC /* Pods_msireau2017_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5AB676E492077E0A705FAB63462C59A /* Pods-msireau2017_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68EBBC446389AE069630EAB12BC6B51F /* Build configuration list for PBXNativeTarget "Pods-msireau2017_Tests" */;
+			buildPhases = (
+				BCB129D23066D1463B1B10CDAE39CCCD /* Sources */,
+				500B833DA5F67E742CBE29353107F2CB /* Frameworks */,
+				6E1DBC6C1C2E1F105804C18F03F4729B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-msireau2017_Tests";
+			productName = "Pods-msireau2017_Tests";
+			productReference = 8C6B4E542F7581D8B5F11A94ACFA1499 /* Pods_msireau2017_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					E7ABE4411A06D1A748E5CC52BA675A88 = {
+						LastSwiftMigration = 0830;
+					};
+					F5AB676E492077E0A705FAB63462C59A = {
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 175065D978C933911FD302D6FE12A561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90D88932D5D0A7A303BBEC210289FD46 /* msireau2017 */,
+				E7ABE4411A06D1A748E5CC52BA675A88 /* Pods-msireau2017_Example */,
+				F5AB676E492077E0A705FAB63462C59A /* Pods-msireau2017_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37644A1F870FFA4BBF73CD19DE5DF9B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFE8209E75E42324FE8FD5DD99E59CB /* msireau2017-dummy.m in Sources */,
+				A35C678A1F91264E00F44DF3 /* Article+CoreDataProperties.swift in Sources */,
+				A35C678F1F9128BD00F44DF3 /* article.xcdatamodeld in Sources */,
+				15EB57025AF55A49EC849F3C0367D52C /* ReplaceMe.swift in Sources */,
+				A35C67891F91264E00F44DF3 /* Article+CoreDataClass.swift in Sources */,
+				A35C678C1F9126EC00F44DF3 /* ArticleManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E46FE5F7C16D8EED30C0EC1AFEF1B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5016568CF4A0D3BB680C6A3F8E0EC7 /* Pods-msireau2017_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB129D23066D1463B1B10CDAE39CCCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BA717101F73941F296AA29AF64C578 /* Pods-msireau2017_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C98756DA8BB2E776015FF7B8647644B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = msireau2017;
+			target = 90D88932D5D0A7A303BBEC210289FD46 /* msireau2017 */;
+			targetProxy = 1E104F294ED5F294050E3FED04A7F584 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53AA6A1C726E08357A06059B5CA1C70F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA632FA0C76FFE7821DF1ECFC7ACCE9 /* msireau2017.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/msireau2017/msireau2017-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/msireau2017/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/msireau2017/msireau2017.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = msireau2017;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		64AF7A86A7B408CE109475FF72F00705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E7973F8D11C4937C3B0C1EAD89B663 /* Pods-msireau2017_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-msireau2017_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-msireau2017_Example/Pods-msireau2017_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_msireau2017_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68501A3FC703F771F4E95637E5BA0DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA632FA0C76FFE7821DF1ECFC7ACCE9 /* msireau2017.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/msireau2017/msireau2017-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/msireau2017/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/msireau2017/msireau2017.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = msireau2017;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8547726B237C49032B6F2865EA75195A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4686E29CC02961F1DCF3570FC61A062 /* Pods-msireau2017_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-msireau2017_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-msireau2017_Tests/Pods-msireau2017_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_msireau2017_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B46225A9E3D93AEDB5169F6D50D1C4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808E8D472C36E78F032B4FA1F1E776DE /* Pods-msireau2017_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-msireau2017_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-msireau2017_Example/Pods-msireau2017_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_msireau2017_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F704D91A19EC47CF26E05EBB70069EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF1E43A35D22A5C8D488984C36C164DB /* Pods-msireau2017_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-msireau2017_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-msireau2017_Tests/Pods-msireau2017_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_msireau2017_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED546DBB23FC32035C9BDC4E22B30BD /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		305FB555BFBDB3C08E1E135FD0CABDDE /* Build configuration list for PBXNativeTarget "Pods-msireau2017_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64AF7A86A7B408CE109475FF72F00705 /* Debug */,
+				B46225A9E3D93AEDB5169F6D50D1C4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6211216651F84D48D014483AEF237A83 /* Build configuration list for PBXNativeTarget "msireau2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AA6A1C726E08357A06059B5CA1C70F /* Debug */,
+				68501A3FC703F771F4E95637E5BA0DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68EBBC446389AE069630EAB12BC6B51F /* Build configuration list for PBXNativeTarget "Pods-msireau2017_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8547726B237C49032B6F2865EA75195A /* Debug */,
+				F704D91A19EC47CF26E05EBB70069EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A35C678D1F9128BD00F44DF3 /* article.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A35C678E1F9128BD00F44DF3 /* article.xcdatamodel */,
+			);
+			currentVersion = A35C678E1F9128BD00F44DF3 /* article.xcdatamodel */;
+			name = article.xcdatamodeld;
+			path = msireau2017/Classes/article.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

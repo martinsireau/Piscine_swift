@@ -1,0 +1,6 @@
+framework module Pods_msireau2017_Tests {
+  umbrella header "Pods-msireau2017_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

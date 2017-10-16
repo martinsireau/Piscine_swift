@@ -1,0 +1,27 @@
+/* Class = "UIButton"; normalTitle = "Take Picture"; ObjectID = "2XN-mb-s0e"; */
+"2XN-mb-s0e.normalTitle" = "Prendre une photo";
+
+/* Class = "UIViewController"; title = "Create Article"; ObjectID = "GpU-DZ-tiU"; */
+"GpU-DZ-tiU.title" = "Créer un article";
+
+/* Class = "UINavigationItem"; title = "My Articles"; ObjectID = "Rd9-Ch-ur4"; */
+"Rd9-Ch-ur4.title" = "Mes Articles";
+
+/* Class = "UITextField"; placeholder = "Title"; ObjectID = "V1l-4b-GPL"; */
+"V1l-4b-GPL.placeholder" = "Titre";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "bYX-IW-cDu"; */
+"bYX-IW-cDu.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "Authenticate yourself"; ObjectID = "kd4-W8-a6j"; */
+"kd4-W8-a6j.normalTitle" = "Authentifiez vous";
+
+/* Class = "UIButton"; normalTitle = "Choose Picture"; ObjectID = "lCl-Iu-M3i"; */
+"lCl-Iu-M3i.normalTitle" = "Choisir une image";
+
+/* Class = "UIViewController"; title = "My Articles"; ObjectID = "vDN-wD-X5c"; */
+"vDN-wD-X5c.title" = "Mes Articles";
+
+/* Class = "UINavigationItem"; title = "My Articles"; ObjectID = "zZp-VW-6nt"; */
+"zZp-VW-6nt.title" = "Mes Articles";
+

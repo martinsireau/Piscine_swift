@@ -1,0 +1,24 @@
+{
+  "name": "msireau2017",
+  "version": "0.1.0",
+  "summary": "bonjour voici mon app",
+  "description": "hello world voici mon app",
+  "homepage": "https://github.com/martinsireau/msireau2017",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "martinsireau": "msireau@student.42.fr"
+  },
+  "source": {
+    "git": "https://github.com/martinsireau/msireau2017.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "msireau2017/Classes/*",
+  "resources": "msireau2017/Classes/article.xcdatamodeld",
+  "frameworks": "CoreData"
+}
